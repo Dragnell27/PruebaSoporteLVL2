@@ -1,0 +1,56 @@
+.main-location {
+  width: 400px;
+}
+
+.main-location > div{
+  margin-top: 20px;
+}
+
+.main-location div > button:hover{
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+button{
+  margin-top: 20px;
+}
+
+.form {
+  color: #e5e5e5;
+  padding: 10px;
+  width: 100%;
+  border: solid 1px #e5e5e5;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+option {
+  color: black;
+}
+
+#consult{
+  height: 45px;
+}
+
+.loader{
+  position: relative;
+}
+
+.loader::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  right: 45%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  animation: spin 0.6s infinite linear;
+}
+
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}

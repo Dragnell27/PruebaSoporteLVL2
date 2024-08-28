@@ -1,0 +1,22 @@
+<div class="main-location">
+  <div>
+    <label for="city" style="display: block">Seleccione una ciudad:</label>
+    <select name="" id="city" class="form">
+      <option value="">--seleccionar--</option>
+      @for (city of cities; track city.id) {
+      <option value="{{ city.id }}">{{ city.name }}</option>
+      }
+    </select>
+  </div>
+
+  <div>
+    <label for="budget">Ingresa tu presupuesto en COP:</label>
+    <input type="number" class="form" id="budget" placeholder="Ingresa solo números"/>
+  </div>
+
+  <div>
+    <div type="submit" class="form text-center" id="consult" (click)="next()">
+      <span id="span" class="">Consultar</span>
+    </div>
+  </div>
+</div>

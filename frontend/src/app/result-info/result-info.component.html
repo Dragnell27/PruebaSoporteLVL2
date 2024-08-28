@@ -1,0 +1,13 @@
+<div class="main-result">
+  <h2>Resultado de búsqueda</h2>
+  <div class="temp">Temperatura: {{data.temp}}</div>
+  <div class="result">Ciudad: {{data.city}}</div>
+  <div class="result">Moneda: {{data.name}}</div>
+  <div class="result">Símbolo: {{data.symbol}}</div>
+  <div class="result">Presupuesto COP: ${{data.budget}}</div>
+  <div class="result">Cambio a {{data.code}}: {{data.symbol}}{{data.budgetFinal}}</div>
+  <div class="result">Tasa de cambio: {{data.exchangeRate}}</div>
+
+  <button class="form" (click)="return()">consultar de nuevo</button>
+</div>
+
