@@ -14,7 +14,7 @@ Es una aplicación web adaptable a dispositivos móviles la cual permite consult
 ## Instalación
 
 ### Requisitos:
-Node 20.
+Node 20
 PHP 7.x
 composer 2.7.8
 
