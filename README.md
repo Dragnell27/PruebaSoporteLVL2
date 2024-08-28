@@ -1,4 +1,4 @@
-## Travel App
+# Travel App
 
 Es una aplicación web adaptable a dispositivos móviles la cual permite consultar una ciudad y elegir un presupuesto y saber el clima, moneda de la ciudad selecciona.
 
@@ -13,12 +13,12 @@ Es una aplicación web adaptable a dispositivos móviles la cual permite consult
 
 ## Instalación
 
-# Requisitos:
+### Requisitos:
 Node 20.
 PHP 7.x
 composer 2.7.8
 
-# Pasos de instalación
+### Pasos de instalación
 1. Clona el repositorio: `https://github.com/Dragnell27/PruebaSoporteLVL2.git`
 3. importamos la base de datos que esta en la ruta
 3. Navega a la carpeta donde se encuentra alojado el backend: `cd backend/`
